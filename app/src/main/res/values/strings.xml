@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string-array name="questions">
+        <item>What is the extension of java class files?</item>
+        <item>Every java class file has a function named as?</item>
+        <item>Version controller name is?</item>
+    </string-array>
+    <string-array name="Correctoptions">
+        <item>.java</item>
+        <item>main</item>
+        <item>git</item>
+    </string-array>
+    <string-array name="options">
+        <item>.java</item>
+        <item>.exe</item>
+        <item>.txt</item>
+        <item>non of the above</item>
+        <item>real activity</item>
+        <item>main activity</item>
+        <item>app activity</item>
+        <item>none of the above</item>
+        <item>vcs</item>
+        <item>git</item>
+        <item>github</item>
+        <item>git lab</item>
+    </string-array>
+</resources>
