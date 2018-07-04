@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        parameters();
         questions=findViewById(R.id.main_question);
         option1=findViewById(R.id.option1);
         option1.setOnClickListener(this);
@@ -47,28 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         score.setVisibility(View.INVISIBLE);
         setquiz();
     }
-//    public void parameters()
-//    {
-//         question[0] = "What is the extension of java class file?";
-//         question [1]="Every app has a activity named as? ";
-//         question[2] = "Version controller name is?";
-//
-//         options[0][1]=".Java";
-//         options[0][2]=".exe";
-//         options[0][3]=".html";
-//         options[0][4]=".txt";
-//         correct[0]=".java";
-//        options[1][1]="real activity";
-//        options[1][2]="main activity";
-//        options[1][3]="java activity";
-//        options[1][4]="app activity";
-//        correct[1]="main activity";
-//        options[2][1]="github";
-//        options[2][2]="git";
-//        options[2][3]="version controller";
-//        options[2][4]="non of the above";
-//        correct[2]="git";
-//    }
+
     private void setquiz()
     {
         questions.setText(question[i]);
